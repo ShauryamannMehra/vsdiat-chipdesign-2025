@@ -37,19 +37,19 @@ Chip Design For Highschool<br>
 - RTL is then synthesised into a netlist in form of operation gates which is put into the chip through physical design implementation.
 ![image](https://github.com/user-attachments/assets/9950cc7b-4f36-4994-b6d5-ef91720b61ba)<br>
 ### D1_Sk2_L1<br>
-For open-source ASIC design implemantation, we require the following enablers to be readily available:-
-- RTL Designs
-- EDA Tools
-- PDK Data <br>
-Early EDA tools were results of academic work. Nowadays we have great EDA toold like Qflow, OpenROAD and OpenLANE<br>
-Till 1979 the design and fabrication of IC's were tightly coupled and were only practiced by very few companies like TI, Intel, etc.<br>
-In 1979, Lynn Conway and Carver Mead came up with an idea to saperate the design from the fabrication and to do this they inroduced structured design methodologies based on the λ-based design rules and published the first VLSI book "Introduction to VLSI System" which started the VLSI education.<br>
-Since then, we started to see Pure Play Fabs and Fabless Design companies<br>
-The inteface between the designers and the fab by now became a set of data files and documents, that are reffered to as the "Process Design Kits (PDKs)".<br>
-PDKs include but are not limited to Device Models, Technology Information, Design Rules, Digital Standard Cell Libraries, I/O Libraries and many more.<br>
-The PDKs contained variety of informations, and so they were distributed under (Non-Disclosure Agreements) which made it inaccessible to the masses.<br>
-Google worked out an agreement with skywater to open-source the PDK for the 130nanometer process by skywater Technology and as a result on 30 June 2020 Google released the first ever open-source PDK.
+For open-source ASIC design implemantation, we require the following enablers to be readily available:- <br>
+ RTL Designs <br>
+EDA Tools <br>
+PDK Data <br>
+- Early EDA tools were results of academic work. Nowadays we have great EDA toold like Qflow, OpenROAD and OpenLANE
+- Till 1979 the design and fabrication of IC's were tightly coupled and were only practiced by very few companies like TI, Intel, etc.<br>
+- In 1979, Lynn Conway and Carver Mead came up with an idea to saperate the design from the fabrication and to do this they inroduced structured design methodologies based on the λ-based design rules and published the first VLSI book "Introduction to VLSI System" which started the VLSI education.<br>
+- Since then, we started to see Pure Play Fabs and Fabless Design companies<br>
+- The inteface between the designers and the fab by now became a set of data files and documents, that are reffered to as the "Process Design Kits (PDKs)".<br>
+- PDKs include but are not limited to Device Models, Technology Information, Design Rules, Digital Standard Cell Libraries, I/O Libraries and many more.<br>
+- The PDKs contained variety of informations, and so they were distributed under Non-Disclosure Agreements which made it inaccessible to the masses.<br>
+- Google worked out an agreement with skywater to open-source the PDK for the 130nanometer process by skywater Technology and as a result on 30 June 2020 Google released the first ever open-source PDK. <br>
 ![image](https://github.com/user-attachments/assets/744cf64c-b54d-44f2-ab45-91aff583066f)
 ![image](https://github.com/user-attachments/assets/5e737f37-c31c-4536-9f72-9881bc6be2c9)
 <br>
-ASIC design is a complex step that involves tons of steps, various methodologies and respective EDA tools which are all required for successful ASIC implementation which is achieved though an ASIC flow which is nothing but a piece of software that pulls different tools togather to carry out the design process.
+- ASIC design is a complex step that involves tons of steps, various methodologies and respective EDA tools which are all required for successful ASIC implementation which is achieved though an ASIC flow which is nothing but a piece of software that pulls different tools togather to carry out the design process.
