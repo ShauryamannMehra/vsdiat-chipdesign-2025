@@ -62,7 +62,7 @@ PDK Data <br>
 ![image](https://github.com/user-attachments/assets/9da5f2fa-35d4-4bde-ab7f-7254d46bfcef)<br>
 ### D1_Sk2_L2<br>
 The main objective of the ASIC Design Flow is to take the design from the RTL (Register Transfer Level) all the way to the GDSII, which is the format used for the final fabrication layout. <br>
-![image](https://github.com/user-attachments/assets/b761647b-b06b-4433-81b5-1ec442a30a25)<br>
+![image](https://github.com/user-attachments/assets/b761647b-b06b-4433-81b5-1ec442a30a25)
 - Gate-Level Netlist is functionally equivalent to the RTL.<br>
 ![image](https://github.com/user-attachments/assets/06cb2ad2-00c5-467a-aa87-63c68aea8c32)<br>
 - The fundemental building blocks which are the standard cells have regular layouts.
