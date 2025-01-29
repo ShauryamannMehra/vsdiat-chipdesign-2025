@@ -52,4 +52,31 @@ PDK Data <br>
 ![image](https://github.com/user-attachments/assets/744cf64c-b54d-44f2-ab45-91aff583066f)
 ![image](https://github.com/user-attachments/assets/5e737f37-c31c-4536-9f72-9881bc6be2c9)
 <br>
-- ASIC design is a complex step that involves tons of steps, various methodologies and respective EDA tools which are all required for successful ASIC implementation which is achieved though an ASIC flow which is nothing but a piece of software that pulls different tools togather to carry out the design process.
+- ASIC design is a complex and involves tons of steps, various methodologies and EDA tools, which are required for successful ASIC implementation which is achieved though an ASIC flow, which is nothing but a piece of software that pulls different tools together to carry out the design process.
+![image](https://github.com/user-attachments/assets/9da5f2fa-35d4-4bde-ab7f-7254d46bfcef)
+###D1_Sk2_L2<br>
+The main objective of the ASIC Design Flow is to take the design from the RTL (Register Transfer Level) all the way to the GDSII, which is the format used for the final fabrication layout. <br>
+![image](https://github.com/user-attachments/assets/b761647b-b06b-4433-81b5-1ec442a30a25)
+- Gate-Level Netlist is functionally equivalent to the RTL.
+![image](https://github.com/user-attachments/assets/06cb2ad2-00c5-467a-aa87-63c68aea8c32)
+- The fundemental building blocks which are the standard cells have regular layouts.
+- Each cell has different views/models which are utilised by different EDA tools like liberty view with electrical models of the cells, HDL behavioral models, SPICE or CDL views of the cells, Layout view which include GDSII view which is the detailed view and LEF view which is the abstract view.
+![image](https://github.com/user-attachments/assets/56e8763e-7158-4f07-8491-ff2436c9d4c2)
+- Power Planning typically uses upper metal layers for power distribution since thay are thicker than lower metal layers and so have lower resistance and PP is done to avoid electron migration and IR drops.
+![image](https://github.com/user-attachments/assets/036d0181-3fdb-4d3a-ad0d-ccf28604bb29)
+![image](https://github.com/user-attachments/assets/016a440f-8ce7-4af2-9138-a4fd41c1450b)
+![image](https://github.com/user-attachments/assets/e37ba4dc-4f64-498f-a3d0-ed302f4dd6a3)
+![image](https://github.com/user-attachments/assets/ac25ef24-1867-405e-8e7e-bb0fe2514192)
+- Global placement provide approximate locations for all cells based on connectivity but in this stage the cells may be overlapped on each other and in detailed placement the positions obtained from global placements are minimally altered to make it legal (non-overlapping and in site-rows)
+![image](https://github.com/user-attachments/assets/0ef78032-d1aa-4f10-b6cc-6acf9ab1e988)
+![image](https://github.com/user-attachments/assets/39e753c6-dc3a-455f-a252-243bfb92bc8a)
+- Clock skew is the time difference in arrival of clock at different components.
+![image](https://github.com/user-attachments/assets/ae964d65-800c-48c3-91bb-e5f6d8892e3c)
+- skywater PDK has 6 routing layers in which the lowest layer is called the local interconnect layer which is a Titanium Nitride layer the following 5 layers are all Aluminium layers.
+![image](https://github.com/user-attachments/assets/fcbd4686-d8d2-43af-aed6-659e66103a38)
+![image](https://github.com/user-attachments/assets/ce7c9cef-d69a-4a6e-bbb4-07dfd744c60d)
+- Once done with the routing the final layout can be generated which undergoes various Sign-Off checks.
+- Design Rules Checking (DRC) which verifies that the final layout honours all design fabrication rules.
+- Layout Vs Schematic (LVS) which verifies that the final layout functionality matches the gate-level netlist that we started with.
+- Static Timing Analysis (STA) to verify that the design runs at the designated clock frequency
+![image](https://github.com/user-attachments/assets/97239f7b-0364-451a-bb10-93a5e5fa5f2f)
