@@ -1,6 +1,6 @@
 # vsdiat-chipdesign-2025
-##Chip Design For Highschool<br> 
-###THEORY
+## Chip Design For Highschool<br> 
+### THEORY
 <details>
   <summary>
 Expand or Collapse
