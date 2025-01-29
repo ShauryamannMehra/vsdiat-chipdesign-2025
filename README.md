@@ -60,7 +60,7 @@ PDK Data <br>
 <br>
 - ASIC design is a complex and involves tons of steps, various methodologies and EDA tools, which are required for successful ASIC implementation which is achieved though an ASIC flow, which is nothing but a piece of software that pulls different tools together to carry out the design process.<br>
 ![image](https://github.com/user-attachments/assets/9da5f2fa-35d4-4bde-ab7f-7254d46bfcef)<br>
-###D1_Sk2_L2<br>
+### D1_Sk2_L2<br>
 The main objective of the ASIC Design Flow is to take the design from the RTL (Register Transfer Level) all the way to the GDSII, which is the format used for the final fabrication layout. <br>
 ![image](https://github.com/user-attachments/assets/b761647b-b06b-4433-81b5-1ec442a30a25)<br>
 - Gate-Level Netlist is functionally equivalent to the RTL.<br>
