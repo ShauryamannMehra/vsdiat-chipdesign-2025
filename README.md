@@ -1,5 +1,9 @@
 # vsdiat-chipdesign-2025
 Chip Design For Highschool<br>
+<details>
+  <summary>
+Expand or Collapse
+  </summary>
 ### D1_Sk1_L1<br>
 #### PACKAGE: In any embedded board we come across, the chip that we refer to is actually only the PACKAGE of the chip. 
 - Examples are QFN-48 and Quad Flat No Leads. It is like an outer covering of the actual chip.
