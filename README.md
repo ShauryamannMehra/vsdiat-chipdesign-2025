@@ -86,3 +86,16 @@ The main objective of the ASIC Design Flow is to take the design from the RTL (R
 - Layout Vs Schematic (LVS) which verifies that the final layout functionality matches the gate-level netlist that we started with.
 - Static Timing Analysis (STA) to verify that the design runs at the designated clock frequency
 ![image](https://github.com/user-attachments/assets/97239f7b-0364-451a-bb10-93a5e5fa5f2f)<br>
+</details>
+### TASKS <br>
+Calculate the flop ratio.
+```math
+Flop\ Ratio = \frac{Number\ of\ D\ Flip\ Flops}{Total\ Number\ of\ Cells}
+```
+```math
+Percentage\ of\ DFF's = Flop\ Ratio * 100
+```
+<br><br>
+![image](https://github.com/user-attachments/assets/f1b79111-2210-4085-b815-c80409a9bda9)<br>
+![image](https://github.com/user-attachments/assets/d67eb003-039d-4858-8acb-9f952dbbd739)<br>
+
